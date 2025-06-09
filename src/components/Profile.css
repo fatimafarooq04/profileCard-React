@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.profile {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    height: 450px;
+    width: 290px;
+    border: 1px solid gray;
+}
+
+.cardContent img {
+    border-radius: 30px;
+    background-color: rgb(219, 219, 219);
+    height: 250px;
+    width: 240px;
+}
+
+.details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 60%; */
+}
+.details p{
+    width: 100%;
+}
+.details button{
+   padding: 10px;
+   width: 120px;
+   border-radius: 30px;
+   border: none;
+   background-color: pink;
+   font-size: 14px;
+   font-weight: 700;
+   cursor: pointer;
+
+}
+
