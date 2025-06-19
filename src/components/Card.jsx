@@ -11,7 +11,7 @@ const Card = ({user}) => {
         <div className="card">
             <div className="cardContent">
 
-                <img src="public/images/profile.jpg" alt="" />
+                <img src="/images/profile.jpg" alt="" />
                 <div className="details">
                     <h3 className="name">{user.name}</h3>
                     <p className="experience">{user.experience}</p>
